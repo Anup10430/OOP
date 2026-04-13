@@ -1,0 +1,14 @@
+package Workshop;
+
+import java.util.LinkedList;
+import java.util.List;
+
+public class Task2 {
+	public static void main(String[] args) {
+		LinkedList<String> obj = new LinkedList<>(List.of("Nic", "Bic", "Sanima", "Bic"));
+		System.out.println(obj.indexOf("Bic"));
+		System.out.println(obj.lastIndexOf("Bic"));
+		System.out.println(obj.isEmpty());
+	}
+
+}
